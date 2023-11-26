@@ -13,11 +13,11 @@ This is a simple blog post management application built with React and `react-ro
 
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/Mahammad-Rehan/blogapp_react1
     ```
 2. Navigate to the project directory:
     ```
-    cd your-repo-name
+    cd blogapp_react1
     ```
 3. Install the dependencies:
     ```
