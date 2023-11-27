@@ -1,12 +1,12 @@
 import React from 'react';
-import * as yup from 'yup'; 
+import * as yup from 'yup';
 import { useForm } from 'react-hook-form';
 import { createBlogPost } from '../api/blogPosts';
 import { useNavigate } from 'react-router-dom';
 
 const schema = yup.object({
-  title: yup.string().required(),
-  body: yup.string().required(),
+  title: yup.string().required('Title is required'),
+  body: yup.string().required('Body is required'),
 });
 
 const CreateBlogPost = () => {
